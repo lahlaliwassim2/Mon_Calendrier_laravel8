@@ -11,6 +11,6 @@ Route::get('/', function () {
 Route::get('full-calender', [FullCalenderController::class, 'index']);
 
 
-
+Route::post('full-calender/action', [FullCalenderController::class, 'action']);
 
 ?>
